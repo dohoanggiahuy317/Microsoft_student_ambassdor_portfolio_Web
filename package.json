@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://dohoanggiahuy317.github.io/Msft_ambassdor_portfolio",
+  "homepage": "https://dohoanggiahuy317.github.io/Msft_ambassdor_portfolio" ,
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
