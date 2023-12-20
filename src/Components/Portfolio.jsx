@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/github.png";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Microservice Medical Booking",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Developed a microservice booking app to support 100+ patients and doctors during the COVID-19 pandemic.",
+    url: "https://github.com/dohoanggiahuy317/Microservice_medical_booking_app",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Sentiment Analysis with LSTM and Attention",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Developed Machine Learning models to analyze the users' feedback from customer service. Achieve accuracy rates of 89% by utilizing Bi-LSTM and Attention.",
+    url: "https://github.com/dohoanggiahuy317/Project-Sentiment-Analysis-LSTM-vs-Attention-NLP",
   },
   {
-    title: "My Resume Site",
+    title: "Data Engineer	May 2023 - Denison Uni Research Lab",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Proposed a pipeline to generate a high-quality dataset of 77,000 unanswerable questions, resulting in improved State-of-the-Art model performance.",
+    url: "https://arxiv.org/abs/2309.05103v1",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Premoji Machine Learning Chatbot app",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Developed and deployed bots: a Chatbot, a Feeling Detection bot, and movie and music suggestion bots utilizing the Cornell Movie-Dialogs Corpus database.",
+    url: "https://github.com/dohoanggiahuy317/App-Premoji-ML_Chatbot-Web",
   },
 ];
 
@@ -60,11 +60,13 @@ const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
+      <div
+        style={{ display: "flex", flexDirection: "row", paddingTop: "3rem", paddingLeft: "3rem" }}
+      >
+        <div style={{ maxWidth: "40%", alignSelf: "center", left: "3rem" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "90%", width: "100%", objectFit: "cover", overflow: "hidden" }}
             alt={imageAltText}
           />
         </div>

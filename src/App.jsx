@@ -27,15 +27,13 @@ const siteProps = {
   name: "Huy Do",
   title: "Software Engineer Intern",
   email: "do_g1@denison.edu",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
-  medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  gitHub: "dohoanggiahuy317",
+  instagram: "jaweee317/",
+  linkedIn: "do-hoang-gia-huy-bbb05921b/",
+  youTube: "@dohoanggiahuy-jaweee4309/featured",
 };
 
-const primaryColor = "#4E567E";
+const primaryColor = "#B14832";
 const secondaryColor = "#D2F1E4";
 
 const App = () => {
